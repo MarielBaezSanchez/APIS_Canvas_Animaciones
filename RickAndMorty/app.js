@@ -1,7 +1,8 @@
-import { createCard, createPagination } from "../ui.js";
+import { createCard, createPagination } from "./ui.js";
 
 const URL ='https://rickandmortyapi.com/api/';
 const pagination = document.querySelector('.pagination');
+
 
 async function requestFetch(url){
     return fetch(url)
